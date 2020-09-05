@@ -1,0 +1,25 @@
+{
+  "name": "javascript-kata",
+  "version": "1.0.0",
+  "description": "## 16+18=214 instructions",
+  "main": "main.js",
+  "directories": {
+    "test": "jest --watch"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RemyLabecot/javascript-kata-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RemyLabecot/javascript-kata-repo/issues"
+  },
+  "homepage": "https://github.com/RemyLabecot/javascript-kata-repo#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
