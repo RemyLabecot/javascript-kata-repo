@@ -1,5 +1,8 @@
 # javascript-kata-repo
 
+All katas in this repo are made with TDD method of development.
+https://en.wikipedia.org/wiki/Test-driven_development
+
 ## 16+18=214 instructions
 
 For this Kata you will have to forget how to add two numbers together.

@@ -1,13 +1,13 @@
 {
   "name": "javascript-kata",
   "version": "1.0.0",
-  "description": "## 16+18=214 instructions",
+  "description": "katas in js",
   "main": "main.js",
   "directories": {
-    "test": "jest --watch"
+    "test": "./test/"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/RemyLabecot/javascript-kata-repo#readme",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
     "jest": "^26.4.2"
   }
 }
