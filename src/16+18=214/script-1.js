@@ -5,7 +5,7 @@ export const sum = (a, b) => {
     return normalSum(a, b);
 };
 
-export const weirdSum = (a, b) => {
+const weirdSum = (a, b) => {
 
     const aInArrayOfDigits = explodeNumber(a).reverse();
     const bInArrayOfDigits = explodeNumber(b).reverse();
@@ -28,7 +28,7 @@ export const weirdSum = (a, b) => {
 };
 
 
-export const normalSum = (a, b) => {
+const normalSum = (a, b) => {
     return a + b;
 };
 
@@ -41,7 +41,7 @@ export const haveMoreThanOneDigit = (num) => {
     return num.toString().length > 1;
 };
 
-export const arrayIsTheBiggest = (array1, array2) => {
+const arrayIsTheBiggest = (array1, array2) => {
 
     let arrayToIterate;
     if(array1.length > array2.length) {
